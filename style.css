@@ -286,7 +286,10 @@ nav {
     width: 243px;
     height: 80px;
 }
-
+.action-details:hover{
+    border: 1px solid red;
+    
+}
 /* footer section style */
 
 .footer {
