@@ -240,20 +240,47 @@ nav {
     margin-top: 15px;
 }
 
-.div-1 img{
+.div-1 img {
     width: 710px;
     height: 650px;
     position: relative;
 
 }
 
-.div-2 img{
+.div-2 img {
     width: 318px;
     height: 365px;
     position: absolute;
     left: 540px;
     top: 400px;
 }
-.play-game-img{
+
+.play-game-img {
     position: relative;
+}
+
+/* action section style start */
+.action {
+    max-width: 1440px;
+    min-height: 200px;
+    margin: 200px auto;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.action-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.action-details {
+    border-radius: 50px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 243px;
+    height: 80px;
 }
