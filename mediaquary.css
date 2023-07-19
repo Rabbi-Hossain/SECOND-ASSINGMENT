@@ -43,6 +43,10 @@
    flex-direction: column;
    padding: 20px;
  }
+
+ .play-game-title{
+   font-size: 2.6rem;
+ }
  .play-game-img, .play-game-text{
    width: 100%;
  }
@@ -70,7 +74,9 @@
    top: 200px;
 }
 
-
+.action{
+   margin-bottom: 0;
+}
 
 .action-container{
    padding: 20px;
@@ -101,6 +107,7 @@
 .item{
    gap: 5px;
 }
+
 .contact{
    display: grid;
    grid-template-columns: repeat(2, 1fr);

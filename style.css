@@ -204,6 +204,8 @@ nav {
 .play-games {
     max-width: 1440px;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     margin: 0 auto;
 }
 
