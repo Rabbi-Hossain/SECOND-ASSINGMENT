@@ -181,7 +181,7 @@ nav {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    
+
 }
 
 .fanny-card-section {
@@ -191,4 +191,69 @@ nav {
     display: flex;
     border-radius: 16px;
     /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+
+.fanny-card-discription {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+/* play game section style */
+.play-games {
+    max-width: 1440px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.play-game-container {
+    display: flex;
+}
+
+
+.play-game-text {
+    width: 50%;
+    padding: 100px 150px;
+}
+
+.play-game-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 0px;
+
+}
+
+.play-game-title-span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-game-discription {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+.div-1 img{
+    width: 710px;
+    height: 650px;
+    position: relative;
+
+}
+
+.div-2 img{
+    width: 318px;
+    height: 365px;
+    position: absolute;
+    left: 540px;
+    top: 400px;
+}
+.play-game-img{
+    position: relative;
 }

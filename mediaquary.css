@@ -4,7 +4,7 @@
         flex-direction: column;
     }
     
-    .nav-items-container,.banner-container{
+    .nav-items-container,.banner-container,.play-game-container{
         flex-direction: column;
     }
     .nav-items-container a{
@@ -35,7 +35,7 @@
    width: 100%;
    margin-top: 100px;
  }
- .banner-container{
+ .banner-container,.play-game-container{
    flex-direction: column-reverse;
    padding: 20px;
  }
@@ -43,4 +43,31 @@
    flex-direction: column;
    padding: 20px;
  }
+ .play-game-img, .play-game-text{
+   width: 100%;
+ }
+.play-game-big-img,.small-img{
+   width: 70%;
+}
+
+.play-game-container{
+   padding: 20px;
+}
+.play-game-text{
+   padding: 50px 0px;
+}
+
+.div-1 img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.div-2 img{
+   width: 200px;
+   height: 150px;
+   position: absolute;
+   left: 180px;
+   top: 200px;
+}
+
 }
