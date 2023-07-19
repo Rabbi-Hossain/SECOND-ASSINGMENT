@@ -1,0 +1,32 @@
+
+@media screen and ( max-width: 425px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-items-container{
+        flex-direction: column;
+        
+    }
+    .nav-items-container a{
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+ .logo-container .nav-items-container{
+    width: 100%;
+ }
+ 
+ .follow-btn{
+    width:400px;
+   
+ } 
+ .nav-items-container .follow-btn{
+    max-width:300px;
+    display:block;
+    justify-content: center;
+    align-items: center;
+ }
+ .fa-brands{
+    margin:10px;
+ }
+}
